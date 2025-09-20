@@ -8,9 +8,9 @@ function countVowels(str) {
       count++;
     }
   }
-
   return count;
 }
 
 // Example usage:
-console.log(countVowels("Hello World")); // Output: 3 (e, o, o)
+console.log(countVowels("Hello")); // Output: 3 (e, o, o)
+console.log(countVowels("world"));
